@@ -1,0 +1,201 @@
+/* 重置样式 */
+
+html {
+  font-family: "Microsoft Yahei", arial, sans-serif;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+input,
+button,
+textarea,
+p,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  font-family: Microsoft YaHei, sans-serif, Arial;
+}
+
+.entry input:-webkit-autofill,
+.entry textarea:-webkit-autofill,
+.entry select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px rgba(255,255,255,0.2) inset!important;
+}
+
+
+/*  通配符“*”可以代表所有标签  */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  *font-size: 100%;
+}
+
+.clear:after {
+  display: block;
+  content: "clear";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+input {
+  border: 0;
+  outline: 0;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.button {
+  border: 0;
+  outline: 0;
+}
+
+/* 常用类 */
+
+.cp {
+  cursor: pointer;
+}
+
+.fc {
+  color: #d5af7b;
+}
+
+.fc1 {
+  color: #cb112c;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tar {
+  text-align: right;
+}
+
+.fs {
+  font-size: 24px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.flex3 {
+  flex: 3
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.ovh {
+  overflow: hidden;
+}
+
+.bg {
+  background: #27292e;
+}
+
+.el-message-box {
+  width: 400px;
+}
+
+@media screen and (max-width: 500px) {
+  .el-message-box {
+    width: 70%;
+  }
+}
